@@ -1,0 +1,72 @@
+  html,
+  body {
+      background: linear-gradient(to bottom, #007bff, #86c5da);
+      background-repeat: no-repeat;
+      height: 100%;
+      margin: 0%;
+  }
+
+  .texto {
+      padding-top: 20%;
+  }
+
+  .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .plan-box {
+      background-color: #f8f9fa;
+      padding: 20px;
+      margin: 10px;
+      text-align: center;
+      height: 300px;
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+
+  .plan-box:hover {
+      transform: scale(1.05);
+  }
+
+  .plan-box h2 {
+      font-size: 1.2em;
+      /* Tamaño de fuente relativo */
+      margin-bottom: 10px;
+  }
+
+  .plan-box p {
+      font-size: 1em;
+      /* Tamaño de fuente relativo */
+      margin-bottom: 20px;
+  }
+
+  .plan-box a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+  }
+
+  .plan-box a:hover {
+      background-color: #0056b3;
+  }
+
+  /* style.css */
+
+  /* Añade los siguientes estilos al principio del archivo */
+
+  @media (max-width: 768px) {
+      .texto {
+          padding-top: 50%;
+      }
+  }
